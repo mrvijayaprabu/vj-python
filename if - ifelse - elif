@@ -1,0 +1,11 @@
+wheels = int(input("Enter the no. of Wheels of your vehicle:"))
+if(wheels==2):
+    print("Your Vehicle is BiCycle or Motorbike")
+elif(wheels==3):
+    print("Your Vehicle is Auto Rickshaw")
+elif(wheels==4):
+    print("Your Vehicle is Car")
+elif(wheels>=5):
+    print("Your Vehicle is Heavy Vehicle")
+else:
+    print("No wheels in your vehicle")
